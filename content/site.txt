@@ -1,0 +1,13 @@
+Title: KellyDesigns
+
+----
+
+Author: Janet Kelly
+
+----
+
+Description: This is Kirby's Starterkit.
+
+----
+
+Copyright: © (date: Year) (link: http://getkirby.com text: KellyDesigns)
