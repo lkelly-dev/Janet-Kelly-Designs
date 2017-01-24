@@ -1083,7 +1083,7 @@ display: inline-block;
 width: 40%;
 float right;
 display: inline-block;
-margin-right: %;
+margin-right: 0%;
 }
 
 .about_service_text{
@@ -1219,33 +1219,53 @@ button:hover, button:focus {
 
 
 
+
+
 .contact_pic_column{
-width: 25%;
-float: left;
+width: 40%;
+/*float: left;*/
 display: inline-block;
-margin-left: 25%;
-margin-right: 5%;
+vertical-align: top;
+text-align: center;
+
 }
 
 .contact_text_column{
-width: 25%;
-float right;
+width: 50%;
+/*float right;*/
 display: inline-block;
-margin-right: 5%;
+vertical-align: top;
+
 }
 
+#contact_info{
+  font-size: .8rem;
+  float: right;
+  padding-bottom: 25px;
+  position: relative;
+  width: 100%;
+}
+
+#contact_info p{
+
+  text-align: right;
+}
+
+.contact_pic_container{
+  width: 100%;
+}
 #contact_pic{
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 55%;
+  max-height: 55%;
   margin-bottom: 1.5rem;
   margin-top: .7rem;
+
+
 }
 
-#social_media_contact{
-  padding-left: 1rem;
-  color: #024a7e;
-  font-size: .9em;
-}
+
+
+
 
 
 .text-box{

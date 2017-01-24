@@ -5,14 +5,16 @@
     <h3>Contact Information<h3>
     <p style="font-size: .7em;">If you are interested in working with us, or just want to say hello, send us a message or give us a call.</p>
 
-    <div>
+    <div style="display: block; text-align:center">
       <div class="contact_pic_column">
-        <div style="font-size.8rem;">
+        <div id="contact_info">
           <p>Janet Kelly</p>
           <p>978-857-5212</p>
           <p>Stow, MA</p>
-          <div>
-        <img id="contact_pic" src="<?= image('chair.jpg')->url() ?>"  alt="Showroom"/>
+        </div>
+        <div class="contact_pic_container">
+          <img id="contact_pic" src="<?= image('chair.jpg')->url() ?>"  alt="Showroom"/>
+      </div>
       </div>
 
       <div class="contact_text_column">
