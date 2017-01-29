@@ -25,14 +25,16 @@
       <div style="clear:both"></div>
     </div>
 
-    <!-- <div class="intro text small-text">
-      <?= $page->intro()->kirbytext() ?>
-    </div> -->
+
 
     <h2 style="font-size: 1.5rem; margin: 0rem;">Affiliations</h2>
     <div class="affiliate-container">
     <img class="affiliates" src="<?= image('affiliate1.jpg')->url() ?>"  alt="Janet"/>
     <img class="affiliates" src="<?= image('affiliate2.png')->url() ?>"  alt="Janet"/>
+  </div>
+
+  <div class="intro text small-text" id="elsie">
+    <?= $page->intro()->kirbytext() ?>
   </div>
     <hr>
 

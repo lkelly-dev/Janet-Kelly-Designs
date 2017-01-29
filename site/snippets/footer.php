@@ -7,11 +7,10 @@
         // but remove all HTML like paragraph tags:
         echo html::decode($site->copyright()->kirbytext())
       ?></p>
-      <!-- <div class="footer-info">
-      <p>Kettell Plain Rd Stow, MA 01775</p>
-      <p>(978) 857-6505</p>
-      <a href="mailto:JanetKelly87@gmail.com" target="_top">JanetKelly87@gmail.com</a>
-    </div> -->
+      <div class="footer-info">
+      <p>Stow, MA</p>
+
+    </div>
 
 <div>
     <!-- Sharingbutton Facebook -->
@@ -46,7 +45,7 @@
   </div>
 </a>
 <div>
-
+    <p id="liam">Website designed by <a href="http://www.liamckelly.com">Liam Kelly</a></p>
     </div>
   </footer>
 

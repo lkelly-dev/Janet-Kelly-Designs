@@ -779,7 +779,7 @@ body {
 }
 
 .footer-info{
-  font-size: .75rem;
+  font-size: .85rem;
 }
 
 .footer .heart {
@@ -1120,6 +1120,10 @@ margin-right: 0%;
   text-align: center;
 }
 
+#elsie{
+  margin-bottom: 0px;
+}
+
 .beforeafter{
   max-width: 90%;
   text-align: center;
@@ -1236,7 +1240,10 @@ button:hover, button:focus {
 }
 
 
-
+#liam{
+  font-size: .7rem;
+  padding-top: 10px;
+}
 
 
 
@@ -1344,17 +1351,68 @@ vertical-align: top;
   font-weight: bold;
 }
 
+#form-container{
+  float:left; width: 100%;
+}
+
+#contact-column-container{
+  width: 60%; margin: auto; display: block; text-align:center
+}
+
+.contact_text{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.test{
+  display: none;
+}
 
 
-@media (max-width: 900px) {
-  #header-rule{
-    display: none;
-  }
+.project-head{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+}
 
+.project-text{
+  font-size: .8rem;
+}
+
+.BA_label{
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 0px;
+
+}
+
+.gallery{
+  width: 48%;
+  display: inline-block;
+}
+
+.after{
+  float: right;
+}
+
+.before{
+  float: left;
+}
+
+@media (max-width: 1200px) {
+
+#prevnext{
+  display: none;
+}
 
 }
 
 @media (max-width: 900px) {
+
+  #header-rule{
+    display: none;
+  }
 
   .showroom{
     max-width: 60%;
@@ -1364,9 +1422,7 @@ vertical-align: top;
     margin-bottom: 25px;
   }
 
-.test{
-  display: none;
-}
+
   .text_column{
   width: 90%;
   margin-right: 5%;
@@ -1385,10 +1441,22 @@ vertical-align: top;
   margin-left: 5%;
 
   }
+
+  .about_service_text{
+    text-align: center !important;
+  }
+
   .about_pic_column{
     width: 100%;
 
     text-align: center;
+  }
+
+  .about_pic{
+    float: none;
+    max-width: 40%;
+    max-height: 40%;
+    margin: auto;
   }
 
 
@@ -1411,8 +1479,23 @@ vertical-align: top;
       width: 200px;
       display: inline-block;;
       margin: auto;
+      float: none;
 
   }
+
+  #contact-column-container{
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact_text{
+    text-align: center;
+    width: 80%;
+    margin-left: auto !important;
+    margin: auto;
+  }
+
+
 
   .contact_text_column{
   width: 100%;
