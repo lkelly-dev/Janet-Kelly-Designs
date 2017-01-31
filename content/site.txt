@@ -6,8 +6,8 @@ Author: Janet Kelly
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Kelly Designs Website.
 
 ----
 
-Copyright: © (date: Year) (link: http://getkirby.com text: KellyDesigns)
+Copyright: © (date: Year) (link: http://www.janetkellydesigns.com text: KellyDesigns)
