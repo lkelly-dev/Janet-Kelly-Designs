@@ -9,6 +9,7 @@
       </div> -->
 
     </header>
+    <p style="text-align: center; font-size: .7em; margin-bottom: -15px;">Click a box to see more photos</p>
 
     <div class="wrap wide">
       <?php snippet('showcase') ?>
