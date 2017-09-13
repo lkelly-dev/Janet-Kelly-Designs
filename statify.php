@@ -9,7 +9,7 @@
  * 5. Test your site
  */
 // Setup the base url for your site here
-$url = 'http://localhost/kirby/support/starterkit/static';
+$url = 'https://janet.netlify.com';
 // Don't touch below here
 define('DS', DIRECTORY_SEPARATOR);
 // load the cms bootstrapper
